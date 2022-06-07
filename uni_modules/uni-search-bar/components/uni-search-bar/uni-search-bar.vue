@@ -63,7 +63,7 @@
 		props: {
 			placeholder: {
 				type: String,
-				default: ""
+				default: "请输入搜索内容"
 			},
 			radius: {
 				type: [Number, String],
@@ -104,8 +104,8 @@
 		},
 		data() {
 			return {
-				show: false,
-				showSync: false,
+				show: true,
+				showSync: true,
 				searchVal: ''
 			}
 		},
@@ -227,6 +227,7 @@
 		flex-direction: row;
 		position: relative;
 		padding: 10px;
+		background-color: #c00000;
 		// background-color: #fff;
 	}
 
